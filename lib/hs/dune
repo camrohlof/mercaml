@@ -1,0 +1,3 @@
+(library
+ (name hs)
+ (libraries mercaml tyxml))

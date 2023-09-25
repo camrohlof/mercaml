@@ -1,0 +1,4 @@
+(library
+  (name views)
+  (libraries mercaml tyxml dream hx hs daisy base fmt)
+  (preprocess (pps lwt_ppx)))

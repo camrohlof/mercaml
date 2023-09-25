@@ -1,0 +1,4 @@
+(library 
+  (name hx)
+  (libraries base fmt dream tyxml)
+  (flags (:standard -w -11 -open Base)))

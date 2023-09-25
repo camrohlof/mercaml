@@ -1,0 +1,7 @@
+(executable
+ (package mercaml)
+ (public_name mercaml)
+ (name main)
+ (modules main)
+ (libraries mercaml views hx hs dream dream-livereload)
+ (preprocess (pps lwt_ppx)))
